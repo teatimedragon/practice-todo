@@ -5,7 +5,7 @@ import { input, rawlist } from "@inquirer/prompts"
 
 let todos = [
     new TodoItem(1, "Buy flowers"), new TodoItem(2, "Get shoes"),
-    new TodoItem(3, "Collect stuff"), new TodoItem(4, "Call Joe", true)
+    new TodoItem(3, "Collect stuff"), new TodoItem(4, "Call Rob", true)
 ]
 
 let collection = new TodoCollection("Peter", todos)
